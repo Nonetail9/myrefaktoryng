@@ -6,3 +6,8 @@ document.getElementById('add-book').addEventListener('click', function() {
         document.getElementById('book-list').appendChild(li);
     }
 });
+document.addEventListener("click", function(event) {
+    if (event.target.classList.contains("delete-btn")) {
+        event.target.parentElement.remove();
+    }
+});
