@@ -8,6 +8,12 @@ header {
     color: white;
     padding: 10px;
 }
+button:hover {
+    background: #218838;
+}
+button:hover {
+    background: #218838;
+}
 ul {
     list-style: none;
     padding: 0;
